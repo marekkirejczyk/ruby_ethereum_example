@@ -1,0 +1,17 @@
+<div class="col-md-6"> 
+  <div class="panel panel-default" style="margin-top: 50px">
+    <div class="panel-heading">
+      <h3 class="panel-title">Creating greeter</h3>
+    </div>
+    <div class="panel-body" id="deploy" data-tx="<%= @tx %>">
+      <p>Please wait while contract is being deployed...
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 100%">
+        </div>
+      </div>
+      <p>Transaction: <a href="<%= @link %>" target="blank"> <%= @tx %> </a>
+    </div>
+  </div>
+</div>
+
+
